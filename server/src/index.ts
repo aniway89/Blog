@@ -10,7 +10,7 @@ import multer from "multer";
 
 const app = express();
 const PORT = Number(process.env.PORT || 5000);
-const CLIENT_ORIGIN = process.env.CLIENT_ORIGIN || "http://localhost:5173";
+const CLIENT_ORIGIN = process.env.CLIENT_ORIGIN || "https://kakublog.vercel.app";
 
 app.disable("x-powered-by");
 
